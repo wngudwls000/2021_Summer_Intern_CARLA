@@ -1,0 +1,8 @@
+prefix=/home/labdog/ai_ws/devel
+
+Name: final_control
+Description: Description of final_control
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

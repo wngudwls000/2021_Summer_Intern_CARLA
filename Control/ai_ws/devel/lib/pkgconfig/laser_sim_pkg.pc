@@ -1,0 +1,8 @@
+prefix=/home/labdog/ai_ws/devel
+
+Name: laser_sim_pkg
+Description: Description of laser_sim_pkg
+Version: 0.0.0
+Cflags: -I/home/labdog/ai_ws/src/laser_sim_pkg/include
+Libs: -L${prefix}/lib -llaser_sim_pkg
+Requires: roscpp rospy tf

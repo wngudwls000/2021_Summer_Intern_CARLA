@@ -1,0 +1,64 @@
+[35m[1mScanning dependencies of target _carla_waypoint_types_generate_messages_check_deps_GetActorWaypoint[0m
+[35m[1mScanning dependencies of target nav_msgs_generate_messages_nodejs[0m
+[  0%] Built target nav_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target nav_msgs_generate_messages_eus[0m
+[35m[1mScanning dependencies of target _carla_waypoint_types_generate_messages_check_deps_GetWaypoint[0m
+[35m[1mScanning dependencies of target _carla_waypoint_types_generate_messages_check_deps_CarlaWaypoint[0m
+[35m[1mScanning dependencies of target nav_msgs_generate_messages_py[0m
+[35m[1mScanning dependencies of target nav_msgs_generate_messages_lisp[0m
+[  0%] Built target nav_msgs_generate_messages_eus
+[  0%] Built target _carla_waypoint_types_generate_messages_check_deps_GetActorWaypoint
+[  0%] Built target nav_msgs_generate_messages_py
+[  0%] Built target nav_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target nav_msgs_generate_messages_cpp[0m
+[  0%] Built target nav_msgs_generate_messages_cpp
+[  0%] Built target _carla_waypoint_types_generate_messages_check_deps_GetWaypoint
+[  0%] Built target _carla_waypoint_types_generate_messages_check_deps_CarlaWaypoint
+[35m[1mScanning dependencies of target carla_waypoint_types_generate_messages_nodejs[0m
+[  5%] [34m[1mGenerating Javascript code from carla_waypoint_types/CarlaWaypoint.msg[0m
+[ 11%] [34m[1mGenerating Javascript code from carla_waypoint_types/GetWaypoint.srv[0m
+[ 16%] [34m[1mGenerating Javascript code from carla_waypoint_types/GetActorWaypoint.srv[0m
+[35m[1mScanning dependencies of target carla_waypoint_types_generate_messages_py[0m
+[ 22%] [34m[1mGenerating Python from MSG carla_waypoint_types/CarlaWaypoint[0m
+[35m[1mScanning dependencies of target carla_waypoint_types_generate_messages_lisp[0m
+[35m[1mScanning dependencies of target carla_waypoint_types_generate_messages_eus[0m
+[35m[1mScanning dependencies of target carla_waypoint_types_generate_messages_cpp[0m
+[ 27%] [34m[1mGenerating EusLisp code from carla_waypoint_types/CarlaWaypoint.msg[0m
+[ 33%] [34m[1mGenerating Lisp code from carla_waypoint_types/CarlaWaypoint.msg[0m
+[ 38%] [34m[1mGenerating C++ code from carla_waypoint_types/CarlaWaypoint.msg[0m
+[ 38%] Built target carla_waypoint_types_generate_messages_nodejs
+[ 44%] [34m[1mGenerating C++ code from carla_waypoint_types/GetWaypoint.srv[0m
+Traceback (most recent call last):
+  File "/opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py", line 43, in <module>
+    import genmsg.template_tools
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/genmsg/template_tools.py", line 39, in <module>
+    import em
+ImportError: No module named em
+CMakeFiles/carla_waypoint_types_generate_messages_cpp.dir/build.make:67: recipe for target '/home/labdog/carla-ros-bridge/catkin_ws/devel/.private/carla_waypoint_types/include/carla_waypoint_types/CarlaWaypoint.h' failed
+make[2]: *** [/home/labdog/carla-ros-bridge/catkin_ws/devel/.private/carla_waypoint_types/include/carla_waypoint_types/CarlaWaypoint.h] Error 1
+make[2]: *** Waiting for unfinished jobs....
+[ 50%] [34m[1mGenerating Lisp code from carla_waypoint_types/GetWaypoint.srv[0m
+[ 55%] [34m[1mGenerating EusLisp code from carla_waypoint_types/GetWaypoint.srv[0m
+Traceback (most recent call last):
+  File "/opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py", line 43, in <module>
+    import genmsg.template_tools
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/genmsg/template_tools.py", line 39, in <module>
+    import em
+ImportError: No module named em
+CMakeFiles/carla_waypoint_types_generate_messages_cpp.dir/build.make:78: recipe for target '/home/labdog/carla-ros-bridge/catkin_ws/devel/.private/carla_waypoint_types/include/carla_waypoint_types/GetWaypoint.h' failed
+make[2]: *** [/home/labdog/carla-ros-bridge/catkin_ws/devel/.private/carla_waypoint_types/include/carla_waypoint_types/GetWaypoint.h] Error 1
+CMakeFiles/Makefile2:1240: recipe for target 'CMakeFiles/carla_waypoint_types_generate_messages_cpp.dir/all' failed
+make[1]: *** [CMakeFiles/carla_waypoint_types_generate_messages_cpp.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+[ 61%] [34m[1mGenerating EusLisp code from carla_waypoint_types/GetActorWaypoint.srv[0m
+[ 66%] [34m[1mGenerating Lisp code from carla_waypoint_types/GetActorWaypoint.srv[0m
+[ 72%] [34m[1mGenerating EusLisp manifest code for carla_waypoint_types[0m
+[ 77%] [34m[1mGenerating Python code from SRV carla_waypoint_types/GetWaypoint[0m
+[ 77%] Built target carla_waypoint_types_generate_messages_lisp
+[ 83%] [34m[1mGenerating Python code from SRV carla_waypoint_types/GetActorWaypoint[0m
+[ 88%] [34m[1mGenerating Python msg __init__.py for carla_waypoint_types[0m
+[ 94%] [34m[1mGenerating Python srv __init__.py for carla_waypoint_types[0m
+[ 94%] Built target carla_waypoint_types_generate_messages_py
+[ 94%] Built target carla_waypoint_types_generate_messages_eus
+Makefile:140: recipe for target 'all' failed
+make: *** [all] Error 2

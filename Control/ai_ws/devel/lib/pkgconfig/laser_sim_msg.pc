@@ -1,0 +1,8 @@
+prefix=/home/labdog/ai_ws/devel
+
+Name: laser_sim_msg
+Description: Description of laser_sim_msg
+Version: 0.0.0
+Cflags: -I/home/labdog/ai_ws/devel/include
+Libs: -L${prefix}/lib 
+Requires: message_runtime

@@ -1,0 +1,18 @@
+[  0%] Built target nav_msgs_generate_messages_nodejs
+[  0%] Built target _carla_waypoint_types_generate_messages_check_deps_GetActorWaypoint
+[  0%] Built target _carla_waypoint_types_generate_messages_check_deps_GetWaypoint
+[  0%] Built target _carla_waypoint_types_generate_messages_check_deps_CarlaWaypoint
+[  0%] Built target nav_msgs_generate_messages_py
+[  0%] Built target nav_msgs_generate_messages_eus
+[  0%] Built target nav_msgs_generate_messages_lisp
+[  0%] Built target nav_msgs_generate_messages_cpp
+[ 16%] Built target carla_waypoint_types_generate_messages_nodejs
+[ 44%] Built target carla_waypoint_types_generate_messages_py
+[ 66%] Built target carla_waypoint_types_generate_messages_eus
+[ 83%] [34m[1mGenerating C++ code from carla_waypoint_types/CarlaWaypoint.msg[0m
+[ 88%] Built target carla_waypoint_types_generate_messages_lisp
+[ 94%] [34m[1mGenerating C++ code from carla_waypoint_types/GetWaypoint.srv[0m
+[100%] [34m[1mGenerating C++ code from carla_waypoint_types/GetActorWaypoint.srv[0m
+[100%] Built target carla_waypoint_types_generate_messages_cpp
+[35m[1mScanning dependencies of target carla_waypoint_types_generate_messages[0m
+[100%] Built target carla_waypoint_types_generate_messages

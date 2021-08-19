@@ -1,0 +1,19 @@
+<launch>
+  <!-- <node name="car_node" pkg="car" type="car_node" >
+    <param name="cmd_vel_id" type="string" value="/cmd_vel" />
+    <param name="pose_topic_id" type="string" value="/vehicle_pose" />
+    <param name="child_frame_id" type="string" value="/vehicle" />
+    <param name="frame_id" type="string" value="/map" />
+  </node>
+
+  <node name="tf_publisher_node" pkg="tf_publisher" type="tf_publisher_node" >
+    <param name="global_frame_id" type="string" value="/map" />
+    <param name="base_frame_id" type="string" value="/vehicle" />
+    <param name="lidar_frame_id" type="string" value="/sensor" />
+    <param name="pose_topic_id" type="string" value="/vehicle_pose" />
+  </node> -->
+  <node name="gnss_hz" pkg="pose_estimation" type="gnss_hz" >
+  </node>
+  <node name="pose_estimation_ekf_node" pkg="pose_estimation" type="pose_estimation_ekf_node" >
+  </node>
+</launch>

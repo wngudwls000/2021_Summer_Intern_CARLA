@@ -1,0 +1,4 @@
+<launch>
+  <node name= "Keyboard"  pkg="lanelet2_carla" type="keyboard_input.py" output ="screen"/>
+  <node name= "Waypoint"  pkg="lanelet2_carla" type="global_planning.py" output ="screen"/>
+</launch>
